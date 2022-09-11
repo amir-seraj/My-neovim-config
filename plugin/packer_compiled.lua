@@ -114,10 +114,15 @@ _G.packer_plugins = {
     path = "/home/mummy/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["darkplus.nvim"] = {
+  ["cobalt2.nvim"] = {
     loaded = true,
-    path = "/home/mummy/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
-    url = "https://github.com/lunarvim/darkplus.nvim"
+    path = "/home/mummy/.local/share/nvim/site/pack/packer/start/cobalt2.nvim",
+    url = "https://github.com/lalitmee/cobalt2.nvim"
+  },
+  ["colorbuddy.nvim"] = {
+    loaded = true,
+    path = "/home/mummy/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
+    url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -128,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mummy/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  neovim = {
+    loaded = true,
+    path = "/home/mummy/.local/share/nvim/site/pack/packer/start/neovim",
+    url = "https://github.com/rose-pine/neovim"
   },
   ["nlsp-settings.nvim"] = {
     loaded = true,
