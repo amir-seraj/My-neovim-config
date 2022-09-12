@@ -55,7 +55,7 @@ return packer.startup(function(use)
   use'mhartington/oceanic-next'
   use { 'lalitmee/cobalt2.nvim', requires = 'tjdevries/colorbuddy.nvim' }
   use'tjdevries/colorbuddy.nvim'
-  
+
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
@@ -95,6 +95,8 @@ return packer.startup(function(use)
   --ToggleTerm
   use "akinsho/toggleterm.nvim"
 
+  --Other
+  use"sunjon/shade.nvim"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
